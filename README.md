@@ -2,9 +2,9 @@
 brick transporter is a busy guy monitors the market and move brick around.
 
 * Classes
- * public_market_watcher (market super class)
+ * exchange_watcher (exchange super class)
  * forex_watcher USD, AUD, EUR & CNY
- * obersever email, telegram
+ * notifier email, telegram
  * market_calculator (combine market_depth)
  * executor (buy and sell)
  * logger (db, text)
